@@ -6,13 +6,26 @@
 
         <div class="flexslider flexslider-slider">
             <ul class="slides">
+	{{--	<li>
+                    <img src="https://cdn.bd-pratidin.com/files/shares/abg/chairman-sir-slider-final.png" alt="sayem sobhan anvir">
+                    <div class="meta meta-main-div">
+                        <h1>Assalamu Alaikum.</h1>
+                        <h1>From Makkah </h1>
+                        <h2>Sayem Sobhan Anvir</h2>
+                        <h2>Chairman, ABG</h2>
+                        <div class="category"> --}}
+                            {{-- <p><img src="{{asset('/desktop/')}}/img/slider-logo-1.png" alt=""></p> --}}
+                            {{-- <p><img src="{{asset('/desktop/')}}/img/abg-logo-2.png" alt=""></p> --}}
+                       {{-- </div>
+                    </div>
+                </li>  --}}
                 <li>
-                    <img src="{{asset('/desktop/')}}/img/sayem_sobhan_anvir_slide_03.png" alt="sayem sobhan anvir">
-                    <div class="meta">
+                    <img src="https://cdn.bd-pratidin.com/files/shares/abg/sayem_sobhan_anvir_slide_03.png" alt="sayem sobhan anvir">
+                    <div class="meta meta-main-div">
                         <h1>SAYEM SOBHAN ANVIR</h1>
                         {{-- <h2>MANAGING DIRECTOR</h2> --}}
                         <div class="category">
-                            <p><img src="https://cdn.bd-pratidin.com/files/shares/abg/abg-anvir-logo.png" alt=""></p>
+                            <p><img src="https://cdn.bd-pratidin.com/files/shares/abg/abg-logo-24-03-2026.png" alt=""></p>
                         </div>
                     </div>
                 </li>
@@ -23,7 +36,7 @@
                         <h1>SAYEM SOBHAN ANVIR</h1>
                         {{-- <h2>MANAGING DIRECTOR</h2> --}}
                         <div class="category">
-                            <p><img src="{{asset('/desktop/')}}/img/slider-logo-2.png?v=2" alt=""></p>
+                            <p><img src="https://cdn.bd-pratidin.com/files/shares/abg/chief-advisor-bajus-04-05-2026.png?v=3" alt=""></p>
                         </div>
                     </div>
                 </li>
@@ -34,21 +47,21 @@
                         <h1>SAYEM SOBHAN ANVIR</h1>
                         {{-- <h2>MANAGING DIRECTOR</h2> --}}
                         <div class="category">
-                            <p><img src="https://cdn.bd-pratidin.com/files/shares/abg/abg-anvir-logo.png" alt=""></p>
+                            <p><img src="https://cdn.bd-pratidin.com/files/shares/abg/abg-logo-24-03-2026.png" alt=""></p>
                         </div>
                     </div>
                 </li>
-                <li>
+               {{-- <li>
                     <img class="mobile-img" src="{{asset('/desktop/')}}/img/sayem_sobhan_anvir_04.png" alt="">
                     <img class="desktop-img" src="{{asset('/desktop/')}}/img/sayem_sobhan_anvir_04.png" alt="">
                     <div class="meta">
-                        <h1>SAYEM SOBHAN ANVIR</h1>
+                        <h1>SAYEM SOBHAN ANVIR</h1> --}}
                         {{-- <h2>MANAGING DIRECTOR</h2> --}}
-                        <div class="category">
+                       {{-- <div class="category">
                             <p><img src="{{asset('/desktop/')}}/img/slider-logo-4.png" alt=""></p>
                         </div>
                     </div>
-                </li>
+                </li>--}}
             </ul>
         </div>
     </div>

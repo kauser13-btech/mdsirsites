@@ -123,7 +123,7 @@
 	<link rel="stylesheet" type="text/css" href="{{asset('/desktop/')}}/css/flexslider.css?v=0.0.2">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 
-	<link rel="stylesheet" type="text/css" href="{{asset('/desktop/')}}/css/theme-style.css?v=1.2.3">
+	<link rel="stylesheet" type="text/css" href="{{asset('/desktop/')}}/css/theme-style.css?v=1.2.5">
 
 </head>
 
@@ -137,14 +137,14 @@
 
 	<nav class="navbar navbar-expand-lg navbar-dark navbar-desktop fixed-top">
 		<div class="container">
-			<div class="collapse navbar-collapse" id="navbarNav">
+			<div class="collapse navbar-collapse pt-2" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="{{ url('post') }}">{{ __('general.news') }}</a></li>
 					<li class="nav-item"><a class="nav-link" href="{{ url('awards') }}">{{ __('general.awards') }}</a></li>
 					<li class="nav-item"><a class="nav-link" href="{{ url('appreciations') }}">{{ __('general.appreciations') }}</a></li>
 					<li class="nav-item">
-						<a class="navbar-brand logo" href="{{ url('/') }}">
-							<img src="{{asset('/desktop/')}}/img/logo.png" alt="" width="30" height="24">
+						<a class="navbar-brand logo " href="{{ url('/') }}">
+							<img src="https://cdn.bd-pratidin.com/files/shares/abg/ABG-Full-3D-Final-Logo.png" alt="" width="30" height="24">
 						</a>
 					</li>
 					<li class="nav-item"><a class="nav-link" href="{{ url('about') }}">{{ __('general.about') }}</a></li>
@@ -166,12 +166,12 @@
 			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<a class="navbar-brand logo" href="{{ url('/') }}"><img src="{{asset('/desktop/')}}/img/logo.png" alt="" width="30" height="24"></a>
+			<a class="navbar-brand logo" href="{{ url('/') }}"><img src="https://cdn.bd-pratidin.com/files/shares/abg/ABG-Full-3D-Final-Logo.png" alt="" width="30" height="24"></a>
 			<a class="navbar-brand" href="#"><i class="bi bi-search"></i></a>
 
 			<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 				<div class="offcanvas-header">
-					<h5 class="offcanvas-title mx-auto" id="offcanvasNavbarLabel"><img src="{{asset('/desktop/')}}/img/logo.png" alt="" width="50px" height="51"></h5>
+					<h5 class="offcanvas-title mx-auto" id="offcanvasNavbarLabel"><img src="https://cdn.bd-pratidin.com/files/shares/abg/ABG-Full-3D-Final-Logo.png" alt="" width="115" height="51"></h5>
 					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 				</div>
 				<div class="offcanvas-body mt-5">
@@ -198,7 +198,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-3">
-				<img class="footer-logo" src="{{asset('/desktop/')}}/img/footer-logo.png" alt="">
+				<img class="footer-logo" src="https://cdn.bd-pratidin.com/files/shares/abg/ABG-Full-3D-Final-Logo.png" alt="">
 			</div>
 			<div class="col-12 col-md-4">
 				<ul class="social m-0">
