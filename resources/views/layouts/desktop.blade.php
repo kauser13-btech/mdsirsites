@@ -144,7 +144,7 @@
 					<li class="nav-item"><a class="nav-link" href="{{ url('appreciations') }}">{{ __('general.appreciations') }}</a></li>
 					<li class="nav-item">
 						<a class="navbar-brand logo " href="{{ url('/') }}">
-							<img src="https://cdn.bd-pratidin.com/files/shares/abg/ABG-Full-3D-Final-Logo.png" alt="" width="30" height="24">
+							<img src="https://cdn.bd-pratidin.com/files/shares/abg/28-09-2026-logo.png" alt="" width="30" height="24">
 						</a>
 					</li>
 					<li class="nav-item"><a class="nav-link" href="{{ url('about') }}">{{ __('general.about') }}</a></li>
@@ -166,12 +166,12 @@
 			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<a class="navbar-brand logo" href="{{ url('/') }}"><img src="https://cdn.bd-pratidin.com/files/shares/abg/ABG-Full-3D-Final-Logo.png" alt="" width="30" height="24"></a>
+			<a class="navbar-brand logo" href="{{ url('/') }}"><img src="https://cdn.bd-pratidin.com/files/shares/abg/28-09-2026-logo.png" alt="" width="30" height="24"></a>
 			<a class="navbar-brand" href="#"><i class="bi bi-search"></i></a>
 
 			<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 				<div class="offcanvas-header">
-					<h5 class="offcanvas-title mx-auto" id="offcanvasNavbarLabel"><img src="https://cdn.bd-pratidin.com/files/shares/abg/ABG-Full-3D-Final-Logo.png" alt="" width="115" height="51"></h5>
+					<h5 class="offcanvas-title mx-auto" id="offcanvasNavbarLabel"><img src="https://cdn.bd-pratidin.com/files/shares/abg/28-09-2026-logo.png" alt="" width="115" height="51"></h5>
 					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 				</div>
 				<div class="offcanvas-body mt-5">
@@ -198,7 +198,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-3">
-				<img class="footer-logo" src="https://cdn.bd-pratidin.com/files/shares/abg/ABG-Full-3D-Final-Logo.png" alt="">
+				<img class="footer-logo" src="https://cdn.bd-pratidin.com/files/shares/abg/28-09-2026-logo.png" alt="">
 			</div>
 			<div class="col-12 col-md-4">
 				<ul class="social m-0">
