@@ -78,7 +78,7 @@
 	<meta name="author" content="sayemsobhan">
 	<meta name="identifier-URL" content="{{ url('/') }}">
 
-	<!-- open graph tags -->
+	<!-- open graph tags nn-->
 	<meta property="og:type" content="article" />
 	<meta property="og:site_name" content="{{ url('/') }}">
 
