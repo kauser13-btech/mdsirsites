@@ -79,8 +79,6 @@
 	<meta name="identifier-URL" content="{{ url('/') }}">
 
 	<!-- open graph tags -->
-	<meta property="og:title" content="SAYEM SOBHAN ANVIR | CHAIRMAN, ABG ">
-	<meta property="og:image" content="https://cdn.bd-pratidin.com/files/shares/abg/sayemsobhan.png" />
 	<meta property="og:type" content="article" />
 	<meta property="og:site_name" content="{{ url('/') }}">
 
