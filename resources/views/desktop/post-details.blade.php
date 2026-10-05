@@ -93,112 +93,15 @@
 
 @push('meta')
 <title>{{ $sql ? $sql->n_head : '' }}</title>
-    <meta property="og:title" content="{{ $sql ? $sql->n_head : '' }}" />
-    <meta name="keywords" content="{{ $sql ? $sql->meta_keyword : ''}}">
-    <meta name="description" content="{{ $sql ? $sql->meta_description : ''}}">
-    <meta property="og:description" content="{{ $sql ? $sql->meta_description : '' }}" />
-    <meta property="og:image" content="{{ $sql ? App\Helpers\ImageStoreHelpers::showImage('news_images',$sql->created_at,$sql->main_image,'') : '' }}" />
-    <link rel="image_src" href="{{ $sql ? App\Helpers\ImageStoreHelpers::showImage('news_images',$sql->created_at,$sql->main_image,'') : '' }}">
-    <meta property="og:url" content="{{ $sql ? url('post').'/'.$sql->nid : ''}}" />
-    <meta name="url" content="{{ $sql ? url('post').'/'.$sql->nid : '' }}">
-    <link rel="canonical" href="{{ $sql ? url('post').'/'.$sql->nid : '' }}">
-{{--    <link rel="amphtml" href="{{url('ampdetails/'.$sql->n_id)}}">--}}
-{{--    <meta property="article:published_time" content="{{date('c', strtotime($sql->start_at))}}.000Z" />--}}
-{{--    <meta property="article:modified_time" content="{{date('c', strtotime($sql->start_at))}}.000Z" />--}}
-{{--    <meta itemprop="published_date" content="{{strtotime($sql->start_at)}}" />--}}
-{{--    <meta property="og:updated_time" content="{{date('c', strtotime($sql->start_at))}}.000Z" />--}}
-{{--    <meta property="og:image:alt" content="{{ str_replace('"', "", trim(strip_tags($sql->n_head))) }}" />--}}
-{{--    <meta property="og:image:width" content="600" />--}}
-{{--    <meta property="og:image:height" content="400" />--}}
-
-{{--    <!-- Twitter Meta Tags -->--}}
-{{--    <meta name="twitter:card" content="summary_large_image">--}}
-{{--    <meta property="twitter:domain" content="bajus.org">--}}
-{{--    <meta property="twitter:url" content="{{ $newsUrl }}">--}}
-{{--    <meta name="twitter:title" content="{{ $sql->n_head.' '.$sql->title_info }}">--}}
-{{--    <meta name="twitter:description" content="{{ $sql->meta_description }}">--}}
-{{--    <meta name="twitter:image" content="{{ $main_img }}">--}}
-
-{{--    <script type="application/json">--}}
-{{--    {--}}
-{{--        "@context": "https://schema.org",--}}
-{{--        "@type": "NewsArticle",--}}
-{{--        "url" : "{{ $newsUrl }}",--}}
-{{--        "articleBody" : "{!! App\Helpers\generalHelper::splitText($sql->n_details, 300) !!}",--}}
-{{--        "articleSection" : "Bajus",--}}
-{{--        "keywords" : "{{ $sql->meta_keyword }}",--}}
-{{--        "mainEntityOfPage":{--}}
-{{--            "@type":"WebPage",--}}
-{{--            "name" : "{{ str_replace('"', "", trim(strip_tags($sql->n_head))) }}",--}}
-{{--            "@id":"{{ $newsUrl }}"--}}
-{{--        },--}}
-{{--        "headline": "{{ str_replace('"', "", trim(strip_tags($sql->n_head))) }}",--}}
-{{--        "image": {--}}
-{{--            "@type": "ImageObject",--}}
-{{--            "url": "{{ $main_img }}",--}}
-{{--            "height": 400,--}}
-{{--            "width": 600--}}
-{{--        },--}}
-{{--        "datePublished": "{{ date('h:i A, F Y, l',strtotime($sql->start_at)) }}",--}}
-{{--        "dateModified": "{{ date('h:i A, F Y, l',strtotime($sql->start_at)) }}",--}}
-{{--        "author": {--}}
-{{--            "@type": "Person",--}}
-{{--            "name": "{{ $sql->n_author }}"--}}
-{{--        },--}}
-{{--        "publisher": {--}}
-{{--            "@type": "Organization",--}}
-{{--            "name": "bajus.org",--}}
-{{--            "logo": {--}}
-{{--                "@type": "ImageObject",--}}
-{{--                "url": "{{ $main_img }}",--}}
-{{--                "width": 400,--}}
-{{--                "height": 600--}}
-{{--            }--}}
-{{--        },--}}
-{{--        "description": "{{ $sql->meta_description }}"--}}
-{{--    }--}}
-{{--    </script>--}}
-{{--    <script type="application/ld+json">--}}
-{{--    {--}}
-{{--        "@context": "https://schema.org",--}}
-{{--        "@type": "ImageObject",--}}
-{{--        "url": "{{ $main_img }}",--}}
-{{--        "height": 600,--}}
-{{--        "width": 400--}}
-{{--    }--}}
-{{--    </script>--}}
-{{--    <script type="application/ld+json">--}}
-{{--    {--}}
-{{--        "@context":"http://schema.org",--}}
-{{--        "@type":"BreadcrumbList",--}}
-{{--        "itemListElement":[--}}
-{{--            {--}}
-{{--                "@type":"ListItem",--}}
-{{--                "position":1,--}}
-{{--                "item":{--}}
-{{--                    "@id":"{{ url('/') }}",--}}
-{{--                    "name":"Home"--}}
-{{--                }--}}
-{{--            },--}}
-{{--            {--}}
-{{--                "@type":"ListItem",--}}
-{{--                "position":2,--}}
-{{--                "item":{--}}
-{{--                    "@id":"{{ url('post/') }}",--}}
-{{--                    "name":"News"--}}
-{{--                }--}}
-{{--            },--}}
-{{--            {--}}
-{{--                "@type":"ListItem",--}}
-{{--                "position":3,--}}
-{{--                "item":{--}}
-{{--                    "name":"{{ str_replace('"', "", trim(strip_tags($sql->n_head))) }}",--}}
-{{--                    "@id":"{{ $newsUrl }}"--}}
-{{--                }--}}
-{{--            }--}}
-{{--        ]--}}
-{{--    }--}}
-{{--    </script>--}}
+    <meta property="og:title" content="{{ $sql ? $sql->n_head : 'SAYEM SOBHAN ANVIR | CHAIRMAN, ABG' }}" />
+    <meta name="keywords" content="{{ $sql ? $sql->meta_keyword : 'SAYEM SOBHAN ANVIR | CHAIRMAN, ABG'}}">
+    <meta name="description" content="{{ $sql ? $sql->meta_description : 'SAYEM SOBHAN ANVIR | CHAIRMAN, ABG'}}">
+    <meta property="og:description" content="{{ $sql ? $sql->meta_description : 'SAYEM SOBHAN ANVIR | CHAIRMAN, ABG' }}" />
+    <meta property="og:image" content="{{ $sql ? App\Helpers\ImageStoreHelpers::showImage('news_images',$sql->created_at,$sql->main_image,'') : 'https://cdn.bd-pratidin.com/files/shares/abg/sayemsobhan.png' }}" />
+    <link rel="image_src" href="{{ $sql ? App\Helpers\ImageStoreHelpers::showImage('news_images',$sql->created_at,$sql->main_image,'') : 'https://cdn.bd-pratidin.com/files/shares/abg/sayemsobhan.png' }}">
+    <meta property="og:url" content="{{ $sql ? url('post').'/'.$sql->nid : url('/') }}" />
+    <meta name="url" content="{{ $sql ? url('post').'/'.$sql->nid : url('/') }}">
+    <link rel="canonical" href="{{ $sql ? url('post').'/'.$sql->nid : url('/')  }}">
 @endpush
 
 @push('stylesheet')

@@ -287,16 +287,18 @@
 @endsection
 
 @push('meta')
-    <title>Sayem Sobhan Anvir</title>
-    <meta property="og:title" content="Managing Director of Bashundhara Group" />
+    <title>SAYEM SOBHAN ANVIR | CHAIRMAN, ABG</title>
+    <meta property="og:title" content="SAYEM SOBHAN ANVIR | CHAIRMAN, ABG ">
     <meta name="url" content="{{ url('/') }}">
     <meta name="keywords" content="Sayem Sobhan Anvir">
     <meta name="description" content="Sayem Sobhan Anvir">
     <meta property="og:url" content="{{ url('/') }}" />
-    <meta property="og:description" content="Sayem Sobhan Anvir" />
-    <meta property="og:image" content="{{ url('desktop/img/default-img.jpg') }}" />
+    <meta property="og:description" content="SAYEM SOBHAN ANVIR | CHAIRMAN, ABG" />
+	<meta property="og:image" content="https://cdn.bd-pratidin.com/files/shares/abg/sayemsobhan.png" />
     <link rel="canonical" href="{{ url('/') }}">
     <link rel="image_src" href="{{ url('desktop/img/default-img.jpg') }}">
+
+    
 @endpush
 
 @push('stylesheet')

@@ -53,7 +53,7 @@
     <meta name="description" content="বাংলাদেশ জুয়েলার্স অ্যাসোসিয়েশন">
     <meta property="og:url" content="{{ url('/') }}" />
     <meta property="og:description" content="বাংলাদেশ জুয়েলার্স অ্যাসোসিয়েশন" />
-    <meta property="og:image" content="{{ url('desktop/img/default-img.jpg') }}" />
+    <meta property="og:image" content="https://cdn.bd-pratidin.com/files/shares/abg/sayemsobhan.png" />
     <link rel="canonical" href="{{ url('/') }}">
     <link rel="image_src" href="{{ url('desktop/img/default-img.jpg') }}">
 @endpush
