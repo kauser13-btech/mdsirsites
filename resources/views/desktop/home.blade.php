@@ -23,7 +23,7 @@
                     <img src="https://cdn.bd-pratidin.com/files/shares/abg/sayem_sobhan_anvir_slide_03.png" alt="sayem sobhan anvir">
                     <div class="meta meta-main-div">
                         <h1>SAYEM SOBHAN ANVIR</h1>
-                        <h1>CHAIRMAN</h1>
+                        <h2>CHAIRMAN</h2>
                         <h2>Anvir Bashundhara Group</h2>
                         {{-- <div class="category">
                             <p><img src="https://cdn.bd-pratidin.com/files/shares/abg/abg-logo-24-03-2026.png" alt=""></p>
@@ -46,10 +46,12 @@
                     <img class="desktop-img" src="{{asset('/desktop/')}}/img/sayem_sobhan_anvir_03.png" alt="">
                     <div class="meta">
                         <h1>SAYEM SOBHAN ANVIR</h1>
+                        <h2>CHAIRMAN</h2>
+                        <h2>Anvir Bashundhara Group</h2>
                         {{-- <h2>MANAGING DIRECTOR</h2> --}}
-                        <div class="category">
+                        {{-- <div class="category">
                             <p><img src="https://cdn.bd-pratidin.com/files/shares/abg/abg-logo-24-03-2026.png" alt=""></p>
-                        </div>
+                        </div> --}}
                     </div>
                 </li>
                {{-- <li>
